@@ -1,0 +1,24 @@
+$my-color-1: #140152;
+$my-color-2: #BD2A7A;
+$my-color-3: #3070D9;
+$my-color-4: #7A3B69;
+$my-color-5: #FFE66D;
+
+$theme-colors:(
+    "my-color-1": $my-color-1,
+    "my-color-2": $my-color-2,
+    "my-color-3": $my-color-3,
+    "my-color-4": $my-color-4,
+    "my-color-5": $my-color-5
+);
+
+   
+.scrollspySite {
+    position: relative;
+    overflow: auto;
+    height: 340px;
+}
+
+
+//importa bootstrap
+@import "node_modules/bootstrap/scss/bootstrap"
